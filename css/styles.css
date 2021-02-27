@@ -9,12 +9,16 @@
   border: 0;
 }
 
-header {
+header h1{
   font-family: 'Valentime', sans-serif;
-  font-size: 100px;
+  font-size: 120px;
   font-weight: bold;
+  text-transform: capitalize;
   text-align: center;
   color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px 40px;
   }
 
 body {
@@ -25,19 +29,20 @@ body {
 }
 
 main {
-  background: white;
+  background: rgba(247, 247, 247, 0.69);
   max-width: 800px;
   max-height: 1000px;
   overflow: scroll;
   margin: 0 auto;
-  padding: 50px;
+  padding: 15px 50px;
 }
 
-h1,
 h2,
 h3 {
   font-size: 30px;
+  font-weight: bolder;
   letter-spacing: normal;
+  color: rgb(113, 113, 181);
 }
 h1{
   padding: 10px 0;
@@ -50,7 +55,7 @@ h3 {
 }
 p{
   font-size: 14px;
-  line-height: 140%;
+  line-height: 200%;
 }
 
 footer {
@@ -58,10 +63,22 @@ footer {
   padding: 20px 0;
   text-align: center;
   text-decoration: underline;
-  color: purple
+  color: rgb(113, 113, 181);
 }
 
 .hero-image {
   text-align: center;
   margin-bottom: 30px;
+}
+.learn-more a {
+  background: rgb(113, 113, 181);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+
 }
