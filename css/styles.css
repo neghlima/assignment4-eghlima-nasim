@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Valentime';
+  src: url('../Fonts/Valentime.otf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  font-family: 'Valentime', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
