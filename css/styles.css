@@ -29,7 +29,7 @@ body {
 }
 
 main {
-  background: rgba(247, 247, 247, 0.69);
+  background: rgba(247, 247, 247, 0.9);
   max-width: 800px;
   max-height: 1000px;
   overflow: scroll;
