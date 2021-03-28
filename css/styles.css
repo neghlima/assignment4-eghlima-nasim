@@ -20,7 +20,10 @@ header h1{
   margin: 0 auto;
   padding: 30px 40px;
   }
-
+header nav ul li {
+  display: inline;
+  padding: 0 15px;
+  }
 body {
   font-family: 'Roboto', sans-serif;
   background-image: url("../images/background.jpg");
