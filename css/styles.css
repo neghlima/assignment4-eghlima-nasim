@@ -39,8 +39,10 @@ header nav a {
 header nav {
     position: relative;
     background-color: #d7e9ec
+}
 
-
+header nav a:hover{
+  color: rgb(113, 113, 181);
 }
 body {
   font-family: 'Roboto', sans-serif;
