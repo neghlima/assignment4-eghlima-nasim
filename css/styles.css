@@ -8,22 +8,40 @@
   padding: 0;
   border: 0;
 }
-
-header h1{
+header {
+    background: none;
+    padding: 0;
+  }
+h1{
   font-family: 'Valentime', sans-serif;
   font-size: 120px;
   font-weight: bold;
   text-transform: capitalize;
   text-align: center;
-  color: white;
-  width: 50%;
-  margin: 0 auto;
-  padding: 30px 40px;
+  color: rgb(113, 113, 181);
+  margin: 10px;
+
   }
 header nav ul li {
   display: inline;
-  padding: 0 15px;
+  padding: 10px 10px;
+  margin: 10px;
   }
+
+header nav a {
+  text-decoration: none;
+  color: Black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: x-large;
+
+  }
+header nav {
+    position: relative;
+    background-color: #d7e9ec
+
+
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-image: url("../images/background.jpg");
