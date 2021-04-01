@@ -116,3 +116,19 @@ footer {
   font-size: 15px;
 
 }
+
+.cloud {
+  position: absolute;
+  opacity: 1;
+  width: 200px;
+  animation: wind 15s forwards infinite linear;
+}
+
+@keyframes wind {
+  from {
+    transform: translateX(20px);
+  }
+  to {
+    transform: translateX(1000px);
+  }
+}
