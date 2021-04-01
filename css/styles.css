@@ -13,6 +13,7 @@ header {
     padding: 0;
   }
 h1{
+
   font-family: 'Valentime', sans-serif;
   font-size: 120px;
   font-weight: bold;
@@ -80,6 +81,10 @@ p{
   font-size: 14px;
   line-height: 200%;
 }
+.date{
+  font-weight: bolder;
+  font-family: sans-serif;
+}
 
 footer {
   background: white;
@@ -90,8 +95,14 @@ footer {
 }
 
 .hero-image {
+  position: relative;
   text-align: center;
   margin-bottom: 30px;
+}
+.about {
+  float: right;
+  max-width: 220px;
+  margin: 20px;
 }
 .learn-more a {
   background: rgb(113, 113, 181);
