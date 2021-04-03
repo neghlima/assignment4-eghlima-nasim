@@ -5,3 +5,5 @@
 * [Netflix](https://www.netflix.com/title/80232398)
 
 I, Nasim Eghlima, have read the point deduction list and understand that I will lose points for missing items.
+
+![Bridgerton](images/bridgerton.jpg)
