@@ -38,10 +38,11 @@ header nav a {
 
   }
 header nav {
-    position: fixed;
-    padding: 20px;
-    position: relative;
-    background-color: #d7e9ec
+  padding: 20px;
+  position: fixed;
+  background-color: #d7e9ec;
+  width: 100%;
+  z-index: 99999;
 }
 
 header nav a:hover{
@@ -60,7 +61,7 @@ main {
   max-height: 1000px;
   overflow: scroll;
   margin: 0 auto;
-  padding: 15px 50px;
+  padding: 80px;
 }
 
 h2,
